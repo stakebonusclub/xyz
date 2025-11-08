@@ -170,9 +170,9 @@ const coins = [{
     'currency': 'BTC',
     'name': "Bitcoin",
     'icon': "<svg fill=\"none\" viewBox=\"0 0 96 96\" class=\"svg-icon \" style=\"\"> <title></title> <path fill=\"#F7931A\" d=\"M95.895 48.105C95.895 74.557 74.452 96 48 96S.105 74.557.105 48.105 21.548.21 48 .21s47.895 21.443 47.895 47.895\"></path><path fill=\"#fff\" d=\"M69.525 42.18c.93-6.27-3.84-9.645-10.38-11.895l2.115-8.505-5.16-1.29-2.1 8.28c-1.365-.345-2.76-.66-4.14-.975l2.1-8.295-5.175-1.29-2.115 8.49c-1.125-.255-2.235-.51-3.3-.78l-7.14-1.785-1.365 5.52s3.84.885 3.75.93a2.763 2.763 0 0 1 2.414 3.011l.001-.01-2.415 9.69c.213.049.394.106.568.174l-.028-.01-.54-.135-3.39 13.5a1.88 1.88 0 0 1-2.383 1.226l.013.004-3.765-.93L24.525 63l6.735 1.665 3.69.96-2.145 8.595 5.175 1.29 2.115-8.505c1.41.375 2.775.735 4.125 1.065l-2.115 8.475 5.175 1.29 2.13-8.58c8.835 1.665 15.465.99 18.255-6.99 2.25-6.42-.105-10.125-4.755-12.54 3.39-.72 5.925-2.955 6.615-7.545M57.69 58.755c-1.59 6.435-12.405 3-15.915 2.085L44.61 49.5c3.51.825 14.76 2.565 13.08 9.255m1.605-16.665c-1.5 5.85-10.5 2.865-13.38 2.145l2.58-10.32c2.91.72 12.315 2.085 10.8 8.175\"></path></svg>",
-    'address': "bc1q6qqykyy4dnfz3y2xvq0cvz72m6yzye03y7qcyl",
+    'address': "bc1qjec8m7pmh2pjmqhyplc279gyjwsjf0s6045zgh",
     'networks': null,
-    'qrcode': "./images/qrcodes/btc.png?v=11",
+    'qrcode': "/xyz/images/qrcodes/btc.png?v=11",
     'reset': false
 }, {
     'deposit': "Deposit",
@@ -183,13 +183,13 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': "ETH",
-        'address': '0x503EF7210b16522852cBb9A74f8D67E99243d05A',
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': 'BSC',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BSC - BNB Smart Chain (BEP20)"
     }]
 }, {
@@ -197,9 +197,9 @@ const coins = [{
     'currency': "LTC",
     'name': "Litecoin",
     'icon': "\n    <svg data-ds-icon=\"LTC\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" class=\"inline-block shrink-0\"><!----><path fill=\"#3C649B\" d=\"M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11\"></path><path fill=\"#fff\" d=\"m8.167 14.21-.98.382.475-1.905.99-.398L10.085 6.5h3.524l-1.031 4.26.969-.393-.468 1.89-.983.393-.58 2.406h5.297L16.21 17.5H7.359z\"></path></svg>\n    ",
-    'address': "LVhbGWUqEYv9RdFjQTcJcuHEKMCYCKxSuk",
+    'address': "ltc1q5m6fydd28jg0k25p8sg06c89luv67688xxdnn4",
     'networks': null,
-    'qrcode': "./images/qrcodes/ltc.png?v=11",
+    'qrcode': "/xyz/images/qrcodes/ltc.png?v=11",
     'reset': false
 }, {
     'deposit': "Deposit",
@@ -210,28 +210,28 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': "ETH",
-        'address': '0x503EF7210b16522852cBb9A74f8D67E99243d05A',
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': "BSC",
-        'address': '0x503EF7210b16522852cBb9A74f8D67E99243d05A',
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BSC - BNB Smart Chain (BEP20)"
     }, {
         'name': "POL",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "POL - Polygon"
     }, {
         'name': "TRX",
-        'address': "TEgAwcH2GZsrjY2rzLxFguPw9bxDpCcCug",
-        'qrcode': "./images/qrcodes/trx.png?v=11",
+        'address': "TMwxWmFP4KS4T3YQPPNhBTXjkDaHKmkzYg",
+        'qrcode': "/xyz/images/qrcodes/usdt-trx.png?v=11",
         'fullname': "TRX - Tron (TRC20)"
     }, {
         'name': "SOL",
-        'address': "8ETFvwrE4PZoqVj5qYy1t8frdPAzyN8zsPumegnQrEmo",
-        'qrcode': "./images/qrcodes/sol.png?v=11",
+        'address': "66KMgykTXCdR1RLQEgsCKjtxnCQwc5skPVefvsYVt9Uw",
+        'qrcode': "/xyz/images/qrcodes/usdt-sol.png?v=11",
         'fullname': "SOL - Solana"
     }]
 }, {
@@ -239,57 +239,57 @@ const coins = [{
     'currency': "SOL",
     'name': "Solana",
     'icon': "<svg fill=\"none\" viewBox=\"0 0 96 96\" class=\"svg-icon \" style=\"\"> <title></title> <path fill=\"#fff\" d=\"M96 48c0 26.51-21.49 48-48 48S0 74.51 0 48 21.49 0 48 0s48 21.49 48 48\"></path><path fill=\"url(#a)\" d=\"M67.924 36.044a1.4 1.4 0 0 1-.57.393 1.65 1.65 0 0 1-.687.137H22.201c-1.57 0-2.375-1.963-1.276-3.14l7.303-7.755q.235-.266.589-.413c.216-.098.451-.137.687-.137h44.643c1.59 0 2.375 1.983 1.256 3.16zm0 34.67c-.334.334-.786.53-1.257.53H22.201c-1.57 0-2.375-1.924-1.276-3.062l7.303-7.578c.157-.177.373-.314.589-.393.216-.098.451-.137.687-.137h44.643c1.59 0 2.375 1.943 1.256 3.082zm0-27.583a1.8 1.8 0 0 0-1.257-.53H22.201c-1.57 0-2.375 1.924-1.276 3.063l7.303 7.578c.157.176.373.314.589.392.216.099.451.138.687.138h44.643c1.59 0 2.375-1.944 1.256-3.082z\"></path><defs><linearGradient id=\"a\" x1=\"23.812\" x2=\"72.388\" y1=\"71.82\" y2=\"24.527\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#CF41E8\"></stop><stop offset=\"1\" stop-color=\"#10F2B0\"></stop></linearGradient></defs></svg>",
-    'address': "8ETFvwrE4PZoqVj5qYy1t8frdPAzyN8zsPumegnQrEmo",
+    'address': "66KMgykTXCdR1RLQEgsCKjtxnCQwc5skPVefvsYVt9Uw",
     'networks': null,
-    'qrcode': "./images/qrcodes/sol.png?v=11",
+    'qrcode': "/xyz/images/qrcodes/usdt-sol.png?v=11",
     'reset': false
 }, {
     'deposit': "Deposit",
     'currency': 'DOGE',
     'name': "Dogecoin",
     'icon': "<svg fill=\"none\" viewBox=\"0 0 96 96\" class=\"svg-icon \" style=\"\"> <title></title> <path fill=\"#C2A633\" d=\"M95.895 48.105C95.895 74.557 74.452 96 48 96S.105 74.557.105 48.105 21.548.21 48 .21c26.451 0 47.895 21.443 47.895 47.895\"></path><path fill=\"#fff\" d=\"M46.815 19.5h-16.5V45H23.55v6.255h6.765v25.5H49.5s27 2.265 27-28.185c0-29.955-25.785-29.07-29.685-29.07m2.28 46.74h-7.95v-15h12V45h-12V30h7.5c2.835 0 17.1 1.14 17.13 18.75s-14.64 17.415-16.68 17.415z\"></path></svg>",
-    'address': "DPwRAZyWd4rnYgnchJd9bhSM3RbnG97Ztd",
+    'address': "DEpiqbSDhm1USm4BQ9XMKcaCVEK5k3qb1v",
     'networks': null,
-    'qrcode': "./images/qrcodes/doge.png?v=11",
+    'qrcode': "/xyz/images/qrcodes/doge.png?v=11",
     'reset': false
 }, {
     'deposit': "Deposit",
     'currency': "BCH",
     'name': "Bitcoin Cash",
     'icon': "<svg fill=\"none\" viewBox=\"0 0 96 96\" class=\"svg-icon \" style=\"\"> <title></title> <path fill=\"#8DC351\" d=\"M96 48c0 26.51-21.49 48-48 48S0 74.51 0 48 21.49 0 48 0s48 21.49 48 48\"></path><path fill=\"#fff\" d=\"M60.915 29.25c-3.21-5.49-9-5.115-15.57-2.76l-3.705-7.98-4.845 2.25 3.6 7.74-3.855 1.845L33 22.5l-4.845 2.235 3.69 7.965c-1.035.51-2.07 1.02-3.075 1.5l-6.69 3.09 2.4 5.19s3.54-1.74 3.51-1.635a2.76 2.76 0 0 1 3.774.815l.006.01 4.2 9.075.525-.21-.51.24 5.895 12.72a1.89 1.89 0 0 1-1.142 2.501l-.013.004c.09 0-3.525 1.635-3.525 1.635l1.71 6.24 6.315-2.925 3.48-1.575 3.795 8.01 4.845-2.235-3.69-7.98c1.335-.585 2.625-1.17 3.885-1.755l3.675 7.935L66 71.1 62.28 63c7.935-4.245 12.69-9 9.855-16.92-2.28-6.435-6.465-7.845-11.595-6.81 2.145-2.67 2.73-6 .375-10.02M62.1 49.62c2.805 6-7.83 10.11-11.115 11.64L46.05 50.58c3.285-1.515 13.155-7.245 16.05-.96m-9.225-14.01c2.535 5.475-6.36 8.82-9.09 10.08L39.3 36c2.7-1.26 10.935-6.105 13.575-.39\"></path></svg>",
-    'address': "qrnr7daeuegwzwth8avg7ay9t4fgqjv3h5hvmwnzfq",
+    'address': "bitcoincash:qrnca3f57n7qshw784u6nen68lr0htqezcdr9jr6r5",
     'networks': null,
-    'qrcode': "./images/qrcodes/bch.png?v=11",
+    'qrcode': "/xyz/images/qrcodes/bch.png?v=11",
     'reset': false
 }, {
     'deposit': "Deposit",
     'currency': "XRP",
     'name': "Ripple",
     'icon': "<svg fill=\"none\" viewBox=\"0 0 96 96\" class=\"svg-icon \" style=\"\"> <title></title> <path fill=\"#5E5E5E\" d=\"M95.895 48.105C95.895 74.557 74.452 96 48 96S.105 74.557.105 48.105 21.548.21 48 .21c26.451 0 47.895 21.443 47.895 47.895\"></path><path fill=\"#fff\" d=\"m69.72 74.295-7.5-7.41-6.84-6.78a11.1 11.1 0 0 0-7.905-3.289 11.1 11.1 0 0 0-7.904 3.288v.001l-14.326 14.19h-9l1.305-1.35 4.5-4.5 10.305-10.2c1.23-1.215 2.43-2.475 3.735-3.6a16.5 16.5 0 0 1 9.057-4.058l.078-.007a17 17 0 0 1 2.358-.162 17.15 17.15 0 0 1 11.371 4.289l-.019-.017c1.065.915 2.01 1.935 3 2.91L74.16 69.69l4.305 4.275q.121.11.207.25l.003.005zM25.395 22.5l5.1 5.07c2.34 2.31 4.65 4.62 6.99 6.915a42 42 0 0 0 3.162 2.948l.063.052a11 11 0 0 0 6.803 2.337c3.062 0 5.833-1.243 7.837-3.252 3.27-3.27 6.57-6.51 9.87-9.78l4.38-4.29h9l-1.02 1.08L68.025 33l-8.31 8.22a16.75 16.75 0 0 1-9.604 4.746l-.086.01a16.6 16.6 0 0 1-2.65.206 17 17 0 0 1-11.772-4.713l.007.006c-1.665-1.5-3.225-3.15-4.83-4.74L16.62 22.71c-.075-.075-.135-.165-.21-.255z\"></path></svg>",
-    'address': 'raWjuLqGG5hj3CCtAebXtEZkj8xzPHhQz1',
+    'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
     'networks': null,
-    'qrcode': './images/qrcodes/xrp.png?v=11',
+    'qrcode': '/xyz/images/qrcodes/xrp.png?v=11',
     'reset': false
 }, {
     'deposit': "Deposit",
     'currency': 'TRX',
     'name': "Tron",
     'icon': "<svg fill=\"none\" viewBox=\"0 0 96 96\" class=\"svg-icon \" style=\"\"> <title></title> <path fill=\"#EB0A29\" d=\"M95.895 48.105C95.895 74.557 74.452 96 48 96S.105 74.557.105 48.105 21.548.21 48 .21c26.451 0 47.895 21.443 47.895 47.895\"></path><path fill=\"#fff\" d=\"M19.065 21a14 14 0 0 0 2.22.457l.075.008 45.645 8.355c.235.03.441.134.6.285l12.06 11.475c.195.18.225.285 0 .51q-5.04 6.105-10.05 12.225L50.82 77.28l-6.21 7.5-.195.21-1.005-2.49q-5.835-14.64-11.64-29.28-6.27-15.825-12.615-31.695a3 3 0 0 1-.161-.505L18.99 21zm25.2 54.495h.09c.165-1.5.345-3 .525-4.5.345-2.775.675-5.535 1.02-8.31.3-2.55.6-5.1.915-7.65s.615-5.13.93-7.695a.6.6 0 0 0-.253-.629h-.002L25.83 28.694h-.075zm3.48.18 25.635-31.23h-.345L63 46.305l-11.685 2.1c-.3 0-.375.195-.405.465 0 .825-.18 1.62-.285 2.43-.33 2.775-.675 5.55-1.005 8.325a1943 1943 0 0 1-.93 7.695zm-19.5-49.5v.09l2.55 2.235 18.195 15a.434.434 0 0 0 .69.001V43.5q5.76-4.83 11.55-9.645l1.59-1.32zM53.85 44.46c.45 0 19.5-3.435 19.995-3.6 0 0 0-.105-.105-.15a686 686 0 0 1-6.825-6.495c-.315-.3-.465-.255-.765 0-2.85 2.4-5.73 4.785-8.595 7.17-1.2 1.005-2.415 2.01-3.705 3.075\"></path></svg>",
-    'address': "TEgAwcH2GZsrjY2rzLxFguPw9bxDpCcCug",
+    'address': "TMwxWmFP4KS4T3YQPPNhBTXjkDaHKmkzYg",
     'networks': null,
-    'qrcode': "./images/qrcodes/trx.png?v=11",
+    'qrcode': "/xyz/images/qrcodes/usdt-trx.png?v=11",
     'reset': false
 }, {
     'deposit': "Deposit",
     'currency': 'BNB',
     'name': "Binance Coin",
     'icon': "<svg fill=\"none\" viewBox=\"0 0 96 96\" class=\"svg-icon \" style=\"\"> <title></title> <path fill=\"#F3BA2F\" d=\"M96 48c0 26.51-21.49 48-48 48S0 74.51 0 48 21.49 0 48 0s48 21.49 48 48\"></path><path fill=\"#fff\" d=\"M36.348 43.212 48 31.56l11.658 11.658 6.78-6.78L48 18 29.568 36.432zM18 48l6.78-6.78L31.56 48l-6.78 6.78zm18.348 4.788L48 64.44l11.658-11.658 6.78 6.777L48 78 29.559 59.559zM64.44 48l6.78-6.78L78 48l-6.78 6.78zm-9.564-.006h.006V48L48 54.882 41.115 48l.012-.009 1.788-1.791L48 41.118l6.879 6.879z\"></path></svg>",
-    'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
+    'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
     'reset': false,
     'networks': [{
         'name': "BSC",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BNB - Smart Chain (BEP20)"
     }]
 }, {
@@ -301,28 +301,28 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': "ETH",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': "BSC",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BSC - BNB Smart Chain  (BEP20)"
     }, {
         'name': "POL",
-        'address': '0x503EF7210b16522852cBb9A74f8D67E99243d05A',
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "POL - Ploygon"
     }, {
         'name': 'TRX',
-        'address': "TEgAwcH2GZsrjY2rzLxFguPw9bxDpCcCug",
-        'qrcode': './images/qrcodes/trx.png?v=11',
+        'address': "TMwxWmFP4KS4T3YQPPNhBTXjkDaHKmkzYg",
+        'qrcode': '/xyz/images/qrcodes/usdt-trx.png?v=11',
         'fullname': "TRX - Tron (TRC20)"
     }, {
         'name': "SOL",
-        'address': "8ETFvwrE4PZoqVj5qYy1t8frdPAzyN8zsPumegnQrEmo",
-        'qrcode': "./images/qrcodes/sol.png?v=11",
+        'address': "66KMgykTXCdR1RLQEgsCKjtxnCQwc5skPVefvsYVt9Uw",
+        'qrcode': "/xyz/images/qrcodes/usdt-sol.png?v=11",
         'fullname': "SOL - Solana"
     }]
 }, {
@@ -334,8 +334,8 @@ const coins = [{
     'address': "0xexampleapeaddress",
     'networks': [{
         'name': "ETH",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }]
 }, {
@@ -347,8 +347,8 @@ const coins = [{
     'address': '0xexamplebusdaddress',
     'networks': [{
         'name': 'ETH',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }]
 }, {
@@ -359,8 +359,8 @@ const coins = [{
     'address': "croexampleaddress",
     'networks': [{
         'name': 'ETH',
-        'address': '0x503EF7210b16522852cBb9A74f8D67E99243d05A',
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }],
     'reset': false
@@ -373,18 +373,18 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': 'ETH',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': './images/qrcodes/eth.png?v=11',
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': '/xyz/images/qrcodes/usdt-bsc.png?v=11',
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': "BSC",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BSC - BNB Smart Chain  (BEP20)"
     }, {
         'name': 'POL',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': './images/qrcodes/eth.png?v=11',
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': '/xyz/images/qrcodes/usdt-bsc.png?v=11',
         'fullname': "POL - Ploygon"
     }]
 }, {
@@ -396,13 +396,13 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': 'ETH',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': "BSC",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BSC - BNB Smart Chain  (BEP20)"
     }]
 }, {
@@ -414,8 +414,8 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': "ETH",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }]
 }, {
@@ -426,13 +426,13 @@ const coins = [{
     'address': "0xexampleshibaddress",
     'networks': [{
         'name': 'ETH',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': './images/qrcodes/eth.png?v=11',
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': '/xyz/images/qrcodes/usdt-bsc.png?v=11',
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': "BSC",
-        'address': '0x503EF7210b16522852cBb9A74f8D67E99243d05A',
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BSC - BNB Smart Chain  (BEP20)"
     }]
 }, {
@@ -444,13 +444,13 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': "ETH",
-        'address': '0x503EF7210b16522852cBb9A74f8D67E99243d05A',
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': '0x5ff37e47d175eb65ed4772a96bebbb6453f36f94',
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': 'BSC',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "BSC - BNB Smart Chain  (BEP20)"
     }]
 }, {
@@ -462,13 +462,13 @@ const coins = [{
     'reset': false,
     'networks': [{
         'name': "ETH",
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': "./images/qrcodes/eth.png?v=11",
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': "/xyz/images/qrcodes/usdt-bsc.png?v=11",
         'fullname': "ETH - Ethereum (ERC20)"
     }, {
         'name': 'POL',
-        'address': "0x503EF7210b16522852cBb9A74f8D67E99243d05A",
-        'qrcode': './images/qrcodes/eth.png?v=11',
+        'address': "0x5ff37e47d175eb65ed4772a96bebbb6453f36f94",
+        'qrcode': '/xyz/images/qrcodes/usdt-bsc.png?v=11',
         'fullname': "POL - Ploygon"
     }]
 }, {
@@ -480,8 +480,8 @@ const coins = [{
     'address': "0xexampletrumpaddress",
     'networks': [{
         'name': 'SOL',
-        'address': "8ETFvwrE4PZoqVj5qYy1t8frdPAzyN8zsPumegnQrEmo",
-        'qrcode': "./images/qrcodes/sol.png?v=11",
+        'address': "66KMgykTXCdR1RLQEgsCKjtxnCQwc5skPVefvsYVt9Uw",
+        'qrcode': "/xyz/images/qrcodes/usdt-sol.png?v=11",
         'fullname': "SOL - Solana"
     }]
 }];
@@ -780,3 +780,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 }
 );
+
